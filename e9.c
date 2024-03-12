@@ -3,27 +3,25 @@ int main()
 {
     int ID, Age;
     char Name[20];
-    char Gender;
-    printf("Enter your ID: ");
+    char school[20];
+    char grade;
+    printf("Enter your ID:");
     scanf("%i", &ID);
-    printf("Enter your Name: ");
-    scanf("%s", Name);
-    printf("Enter your Gender: ");
-    scanf(" %c", &Gender);
-    printf("Enter your Age: ");
-    scanf(" %i", &Age);
-    if(Age >= 18)
+    printf("Enter your Age:");
+    scanf("%i", &Age);
+    printf("Enter your Name:");
+    scanf(" %s", Name);
+    printf("Enter your school:");
+    scanf("%s", school);
+    printf("Enter your grade:");
+    scanf(" %c", &grade);
+    if(grade == 'A')
     {
-        printf("ID :%d",ID);
-        printf("Name :%s",Name);
-        printf("Gender: %c",Gender);
-        printf("You are enligiable to vote");
+        printf("you are acceptable in our school: %s", school);
     }
     else
     {
-        printf("ID :%d",ID);
-        printf("Name :%s",Name);
-        printf("Gender: %c",Gender);
-        printf("You are not enligiable to vote");
+        printf("your are not acceptable in our school:  %s", school);
     }
+
 }
