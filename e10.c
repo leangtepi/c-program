@@ -1,28 +1,42 @@
 #include<stdio.h>
-int main()
-{
+
+int main() {
     int ID;
     char company[20];
     float salary;
-    printf("Enter your ID:");
+    char Gender;
+
+    printf("Enter your ID: ");
     scanf("%i", &ID);
-    printf("Enter your company:");
+
+    printf("Enter your company: ");
     scanf("%s", company);
-    printf("Enter your salary:");
+
+    printf("Enter your salary: ");
     scanf("%f", &salary);
-    if(salary >= 500)
+
+    printf("Enter your Gender: ");
+    scanf(" %c", &Gender);
+
+    if (salary >= 500) 
     {
-
-        printf("your salary won't increase:%f", salary);
-
-    }
-    else
+        printf("Your salary won't increase: %.2f\n", salary);
+        if (Gender == 'F')
+            salary = salary + 50;
+    } 
+    else 
     {
         salary = salary + 50;
-        printf("your salary will be increase:%f", salary);
-
+        printf("Your salary will be increased: %.2f\n", salary);
+        if (Gender == 'F') 
+        {
+            salary = salary + 50;
+        }
     }
-    printf("ID:%i\n", &ID);
-    printf("%company:%s\n", company);
-    printf("salary:%f\n", salary);
+
+    printf("ID: %i\n", ID);
+    printf("Company: %s\n", company);
+    printf("Salary: %.2f\n", salary);
+
+    return 0;
 }
