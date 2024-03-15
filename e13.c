@@ -1,21 +1,25 @@
 #include<stdio.h>
-
 int main()
 {
-    int hours_parked;
-    float fine = 0.0;
-    printf("Enter the number of hours parked:");
-    scanf("%d", &hours_parked);
-    if(hours_parked <= 2){
-        printf("No parking ticket. Enjoy your stay!\n");
-    }else if(hours_parked <= 5){
-        fine = 15.0;
-    }else if (hours_parked <= 10){
-        fine = 30.0;
-    }else{
-        fine = 50.0;
+    int hour_parked;
+    int fine = 0.0;
+    printf("hour_parked:");
+    scanf("%i", &hour_parked);
+    if (hour_parked <=2)
+    {
+        printf("you are not fine.Enjoy your stay.\n");
+    }else if(hour_parked <=5)
+    {
+        fine = 10;
+        printf("you have been fine for parking over the allow time.\n");
+    }else if(hour_parked <=8)
+    {
+        printf("you have been fine for parking over the allow time.\n");
+        fine = 15;
+    }else 
+    {
+        printf("you have been fine for parking over the allow time.\n");
+        fine = 20;
     }
-    if(fine > 0){
-        printf("You have been fine $%.2f for parking over the allowed time.\n", fine);
-    }
+    printf("the fines is gonna be %d",fine);
 }
