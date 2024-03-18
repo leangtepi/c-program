@@ -7,7 +7,7 @@ int main()
     float chemistry_score;
     float math_score;
     float physic_score;
-    printf("Enter your Id:");
+    printf("Enter your ID:");
     scanf("%i", &ID);
     printf("Enter your Name:");
     scanf(" %s", Name);
