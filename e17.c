@@ -53,7 +53,7 @@ int main()
     printf("Age: %i\n", Age);
     printf("Retirement money: %f\n", retirement_money);
     printf("Salary: %f\n", salary);
-    printf("Money Package: %f\n", Money_Package);
+    printf("Money Package: %f\n", Money_Package); 
 
     return 0;
 }
