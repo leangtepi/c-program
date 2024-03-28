@@ -19,7 +19,6 @@ int main()
         break;
         case 3:
         price = 1;
-        printf("Enter choice,quantity: ");
         break;
         default:
         printf("Invalid option.\n");
