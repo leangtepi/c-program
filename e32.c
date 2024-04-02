@@ -42,5 +42,4 @@ int main()
     }
     total = seatprice + price;
     printf("Enter total: %f",total);
-
 }
