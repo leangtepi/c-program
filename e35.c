@@ -4,8 +4,7 @@
 int main() 
 {
     int length_of_day; 
-    float price;
-    int used; 
+    float price; 
     float total;
     float discount;
     int car;
@@ -63,6 +62,5 @@ int main()
                 printf("Invalid option. Please try again.\n");
         }
     }
-    
     return 0;
 }
