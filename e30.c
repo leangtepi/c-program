@@ -11,11 +11,9 @@ int main()
     {
         case 1:
         price = 1.5;
-        printf("Enter choice,quantity:" );
         break;
         case 2:
         price = 2;
-        printf("Enter choice,quantity: ");
         break;
         case 3:
         price = 1;
@@ -34,6 +32,6 @@ int main()
     {
     total = quantity * price;
     }
-    printf("Discount :%f",discount);
-    printf("total: %f\n", total);
+    printf("Discount :%.2f\n",discount);
+    printf("total: %.2f\n", total);
 }
