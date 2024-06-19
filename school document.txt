@@ -1,0 +1,6 @@
+ID: 1	Name: a	Age: 18	Math: 80.00	Khmer: 70.00	Science: 90.00	Score: 240.00	Average: 80.00
+ID: 2	Name: s	Age: 19	Math: 70.00	Khmer: 80.00	Science: 80.00	Score: 230.00	Average: 76.67
+ID: 1	Name: a	Age: 18	Math: 80.00	Khmer: 70.00	Science: 90.00	Score: 240.00	Average: 80.00
+ID: 2	Name: s	Age: 19	Math: 70.00	Khmer: 80.00	Science: 80.00	Score: 230.00	Average: 76.67
+ID: 3	Name: d	Age: 20	Salary: 300.00
+ID: 4	Name: f	Age: 30	Salary: 400.00
