@@ -1,11 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char salon[20];
-    int choice;
-    int customer;
-    float price;
-    float total = 0; 
+    
 
     printf("Enter the salon: ");
     scanf("%s", salon);
@@ -49,13 +45,14 @@ int main() {
                     else if (choice == 2)
                         price = 5;
                     else if (choice == 3)
-                        price = 8;
+                        price = 8; 
                     break;
                 default:
                     printf("Invalid choice\n");
                     continue;
             }
-            if(choice == 4) {
+            if(choice == 4)
+            {
                 break;
             }
             total += price; 
@@ -63,5 +60,5 @@ int main() {
     }
 
     printf("Total cost for all customers: $%.2f\n", total);
-    return 0;
+    return 0; 
 }

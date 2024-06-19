@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Student 
+{
+    char name[50];
+    int score;
+}s[50];
+
+int i =0;
+
+void input();
+void output();
+
+int main()
+{
+    whiel(1)
+    {
+        int opt;
+        printf("1.input\n2.output\n3.calculate\n");
+        scanf("%d", &opt);
+        switch (opt)
+        {
+            case 1:
+            input();
+            break;
+            case 2:
+            output();
+            break;
+            case 3:
+            calculate();
+        }
+        return 0;
+    }
+}
